@@ -1,0 +1,25 @@
+is java.sql.Date to be imported for date?  --> check in edi application
+
+----------------------------------------------------
+
+foreign key reference in entity class (join)  --> check in edi application
+
+@MappedSuperclass for baseEntity
+Using default date format and json.... ?  --> check in edi application
+
+---------------------------------------------------
+
+verify all the columns in db as well as in entity 
+and also their types and forek key references and
+if any column is missing and need to be added
+
+-----------------------------------------------------
+
+need to recreate all the tables after verification as there were many changes.
+refer tables_order.txt for order in which the tables has to be created
+
+----------------------------------------------------------
+
+create role, menu, modules and thir reference tables
+
+-----------------------------------------------------------

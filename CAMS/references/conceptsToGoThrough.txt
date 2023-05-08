@@ -1,0 +1,10 @@
+factory abstractions --> to achieve maximum flexibility in the project
+
+use of common interface for crud operations
+
+use long instead of int. 
+How as to avoid bit issues in the future
+
+-----------------------------------------------------------------------------
+
+read about is-A and has_A relationship

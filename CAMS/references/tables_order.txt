@@ -1,0 +1,38 @@
+base schema
+
+1) institute
+2) branch  --> fk table : institue
+3) bank_details  --> fk table : institue, branch
+4) user --> fk table : institue, branch
+5) department --> fk table : institue, branch
+6) graduation_program --> fk table : institue, branch
+7) course --> fk table : institue, branch, graduation_program_id
+8) student_admission --> fk table : institue, branch, graduation_program, course, department
+9) parent_or_guardian_info --> fk table :student_admission
+
+
+-------------------------------------------------------------------------------------
+date : 10-12-2022
+
+*** role, menu, modules, user_role, role_menu, menu_modules needs to be loaded through scripts ***
+
+*** parent_module_id in module table is module_id from same table ***
+
+*** creating indexes ***
+
+*** menu_sequence and module_sequence in role_menu and menu_modules,
+	defines the order in which it has to be displayed on UI     ***
+ex: menu 
+   settings menu_sequence 1
+	organization -- module_sequence 1
+	entity 	     -- module_sequence 2
+ 
+
+-----------------------------------------------------------------------------------------------
+11-12-2022
+
+cross verify all the tables created and then column names and types 
+and also the constraint names
+before starting the implementation
+
+cross check all the user, role, menu, modules and their sub tables
