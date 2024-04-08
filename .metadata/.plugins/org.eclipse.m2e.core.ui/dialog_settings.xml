@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\project\COLLEGE_MANAGEMENT_SYSTEM\CAMS\backend"/>
+			<item value="C:\project\COLLEGE_MANAGEMENT_SYSTEM"/>
 			<item value="C:\project\COLLEGE_MANAGEMENT_SYSTEM\backend"/>
 		</list>
 		<list key="projectNameTemplate">
